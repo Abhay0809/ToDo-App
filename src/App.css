@@ -1,0 +1,89 @@
+body {
+  background-color: #141114;
+  background-image: linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.logo {
+  display: inline;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 10px;
+}
+
+.list ul li button {
+  position: absolute;
+  right: 0%;
+  background: #f34541;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.add-btn {
+  color: #fff !important;
+  border: none;
+  background-color: #4CAF50;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.app-title {
+  display: inline;
+  margin-left: 20%;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+}
+ul {
+  /* remove default padding and margin from ul*/
+  margin: 0px;
+  padding: 0px;
+}
+
+.list ul li {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+  padding: 10px;
+  position: relative;
+}
+
+.container {
+  padding-top: 2rem;
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+}
